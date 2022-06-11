@@ -1,6 +1,6 @@
 # Set up a Databricks Cluster
 
-For any workload in Databricks, you'll need a cluster. You can create a cluster either through the UI or using JSON. Pick whichever is easiest for you!
+For any workload in Databricks, you'll need a cluster. You can create a cluster (menu item: Create > Cluster) either through the UI or using JSON. Pick whichever is easiest for you!
 * [Through the UI](#through-the-ui)
 * [Using JSON](#using-json)
 
