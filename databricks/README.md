@@ -9,7 +9,7 @@ We'll be using a Databricks for many of our exercises. If you already have an ac
 
 3. Choose your Cloud Provider. If you don't already have a Cloud Provider account somewhere, please [set one up](#set-up-a-cloud-provider)
 
-   <img src="./assets/databricks-choose-cloud-provider.png" alt="databricks-choose-cloud-provider.png" width="200"/>
+   <img src="./assets/databricks-choose-cloud-provider.png" alt="databricks-choose-cloud-provider.png" width="500"/>
 
 4. Choose a workspace name
 
