@@ -6,7 +6,7 @@ For any workload in Databricks, you'll need a cluster. You can create a cluster 
 
 ## Through the UI
 
-![databricks-create-cluster.png](./databricks-create-cluster.png)
+![databricks-create-cluster.png](./assets/databricks-create-cluster.png)
 
 ## Using JSON
    ```json
