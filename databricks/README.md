@@ -22,22 +22,6 @@ There are three Cloud Providers that Databricks supports: AWS, Azure, and Google
 * [Set up an Azure Account](https://azure.microsoft.com/en-gb/free/)
 * [Set up a GCP Account](https://console.cloud.google.com/)
 
-## Start using Databricks
-1. [Set up a cluster](./setup-cluster.md)
-1. In your User's workspace, click import
-
-   ![databricks-import](./assets/databricks-import.png)
-
-2. Import your desired notebook by either dragging a file from your local machine or importing using a url (for example: `https://raw.githubusercontent.com/data-derp/exercise-co2-vs-temperature-databricks/master/data-ingestion/Data%20Ingestion%20CO2%20vs%20Temperature.py`)
-
-   ![databricks-import-url](./assets/databricks-import-url.png)
-
-3. Select your cluster
-
-   ![databricks-select-cluster.png](./assets/databricks-select-cluster.png)
-
-5. Follow instructions in your notebook (or create one on your own!)
-
 ## FAQ
 ### Why aren't we using the Community Edition?
 We ran into several consistency issues in the Community Edition such that the same notebook deployed in different regions or clusters would result in different behaviour, particularly around mounting files that are required for these exercises. Some exercises, as a result, became un-runnable. After trialling the Community Edition several times, we concluded that the pay-as-you go version of Databricks provided more consistent behaviour and a better experience for learning despite the added complexity of signing up for a Cloud Provider. You're welcome to try the Community Edition, but we expect you experience similar degraded effects.
