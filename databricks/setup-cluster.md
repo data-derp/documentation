@@ -32,7 +32,7 @@ For any workload in Databricks, you'll need a cluster. You can create a cluster 
       "spark_env_vars": {
          "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
       },
-      "autotermination_minutes": 60,
+      "autotermination_minutes": 30,
       "enable_elastic_disk": false,
       "cluster_source": "UI",
       "init_scripts": [],
