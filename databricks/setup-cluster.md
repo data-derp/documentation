@@ -21,7 +21,7 @@ For any workload in Databricks, you'll need a cluster. You can create a cluster 
       "aws_attributes": {
          "first_on_demand": 1,
          "availability": "SPOT_WITH_FALLBACK",
-         "zone_id": "ap-south-1c",
+         "zone_id": "eu-central-1a", ---> change this! (NA: us-east-1a, Europe: eu-central-1a, India: ap-south-1c)
          "instance_profile_arn": null,
          "spot_bid_price_percent": 100,
          "ebs_volume_count": 0
