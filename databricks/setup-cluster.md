@@ -1,14 +1,22 @@
 # Set up a Databricks Cluster
 
 For any workload in Databricks, you'll need a cluster. You can create a cluster (menu item: Create > Cluster) either through the UI or using JSON. Pick whichever is easiest for you!
-* [Through the UI](#through-the-ui)
+* [Through the UI (preferred)](#through-the-ui)
 * [Using JSON](#using-json)
 
 ## Through the UI
 
+1. Choose `Compute` in the left navigation:
+![databricks-create-cluster-menu-selection](./assets/databricks-create-cluster-menu-selection.png)
+
+2. Select the `min` profile in the `Policy` dropdown and compare that the settings match the following:
 ![databricks-create-cluster.png](./assets/databricks-create-cluster.png)
 
+3. Confirm by clicking the `Create Cluster` button at the bottom of the page.
+
 ## Using JSON
+Note that this json structure might be outdated, therefore we currently prefer the manual creation through the UI.
+
    ```json
      {
       "autoscale": {
