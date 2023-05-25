@@ -7,7 +7,7 @@
 
 4. Import the `So long and thanks for all the fish!.py` notebook: 
    ```
-   TBD
+   https://raw.githubusercontent.com/data-derp/documentation/master/databricks/cleanup/So%20long%20and%20thanks%20for%20all%20the%20fish!.py
    ```
 
    ![databricks-import-url](https://github.com/data-derp/documentation/blob/master/databricks/assets/databricks-import-url.png?raw=true)
