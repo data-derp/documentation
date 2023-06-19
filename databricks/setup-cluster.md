@@ -12,7 +12,11 @@ For any workload in Databricks, you'll need a cluster. You can create a cluster 
 2. Select the `min` profile in the `Policy` dropdown and compare that the settings match the following:
 ![databricks-create-cluster.png](./assets/databricks-create-cluster.png)
 
-3. Confirm by clicking the `Create Cluster` button at the bottom of the page.
+3. (Alternative): If you want to share a cluster with a colleague, you can create a shared-environment.
+![databricks-select-cluster-shared.png](./assets/databricks-select-cluster-shared.png)
+In a `no isolation shared` environment, everybody in the team can execute notebooks on your cluster. This helps a lot when working together in smaller groups on the same notebook.  
+
+4. Confirm by clicking the `Create Cluster` button at the bottom of the page.
 
 ## Using JSON
 Note that this json structure might be outdated, therefore we currently prefer the manual creation through the UI.
