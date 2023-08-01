@@ -1,6 +1,6 @@
 # Set up a Databricks Single User Cluster
 
-For any workload in Databricks, you'll need a cluster. You can create a cluster (menu item: Create > Cluster) through the UI.
+For any workload in Databricks, you'll need a cluster. This particular cluster allows a single individual to access it and comes enabled with Unity Catalog. You can create a cluster (menu item: Create > Cluster) through the UI.
 
 ## Through the UI
 
